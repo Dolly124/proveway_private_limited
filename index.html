@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Javascript -->
+    <script defer src="app.js"></script>
+    <!--  This is used to load Javascript file after HTML is fully loaded -->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="cart">
+        <h1 class="cart__heading">bundle & save</h1>
+        <div>
+            <div>
+                <div class="cart__option">
+                    <div class="row">
+                        <div class="input-group">
+                            <input class="cart__option__pair-selector" type="radio" name="pairSelection" value="onePair"
+                                id="onePair">
+                            <label for="1pair" class="cart__option__pair-label">
+                                <span>1 pair</span><span class="text-hightlight">dkk 195.00</span>
+                            </label>
+                        </div>
+                        <p class="text-hightlight">50% off</p>
+                    </div>
+                    <div class="cart__option__grid-container">
+                        <div class="cart__option__grid">
+                            <p class="textSmall cloth-size-title">size</p>
+                            <p class="textSmall cloth-color-title">color</p>
+
+
+                            <p class="textSmall grid-index">#1</p>
+                            <select class="pair-attribute" name="size" id="cloth1Size">
+                                <option value="s">s</option>
+                                <option value="m">m</option>
+                                <option value="l">l</option>
+                            </select>
+                            <select class="pair-attribute" name="color" id="cloth1Color">
+                                <option value="black">black</option>
+                                <option value="white">white</option>
+                                <option value="olive">olive</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="cart__option">
+                    <div class="row">
+                        <div class="input-group">
+                            <input class="cart__option__pair-selector" type="radio" name="pairSelection" value="twoPair"
+                                id="twoPair">
+                            <label for="2pair" class="cart__option__pair-label">
+                                <span>2 pair</span><span class="text-hightlight">dkk 345.00</span>
+                            </label>
+                        </div>
+                        <p class="text-hightlight text-strike">dkk 195.00</p>
+                        <div>
+                            <p class="popular-plan">most popular</p>
+                            <p class="text-hightlight">40% off</p>
+                        </div>
+                    </div>
+                    <div class="cart__option__grid-container">
+                        <div class="cart__option__grid">
+
+                            <p class="textSmall cloth-size-title">size</p>
+                            <p class="textSmall cloth-color-title">color</p>
+
+
+                            <p class="textSmall grid-index">#1</p>
+                            <select class="pair-attribute" name="size" id="cloth1Size">
+                                <option value="s">s</option>
+                                <option value="m">m</option>
+                                <option value="l">l</option>
+                            </select>
+                            <select class="pair-attribute" name="color" id="cloth1Color">
+                                <option value="black">black</option>
+                                <option value="white">white</option>
+                                <option value="olive">olive</option>
+                            </select>
+
+                            <p class="textSmall grid-index">#2</p>
+                            <select class="pair-attribute" name="size" id="cloth2Size">
+                                <option value="s">s</option>
+                                <option value="m">m</option>
+                                <option value="l">l</option>
+                            </select>
+                            <select class="pair-attribute" name="color" id="cloth2Color">
+                                <option value="black">black</option>
+                                <option value="white">white</option>
+                                <option value="olive">olive</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="cart__option">
+                    <div class="row">
+                        <div class="input-group">
+                            <input class="cart__option__pair-selector" type="radio" name="pairSelection"
+                                value="threePair" id="threePair">
+                            <label for="3pair" class="cart__option__pair-label">
+                                <span>3 pair</span><span class="text-hightlight">dkk 528.00</span>
+                            </label>
+                        </div>
+                        <p class="text-hightlight">60% off</p>
+                    </div>
+                    <div class="cart__option__grid-container">
+                        <div class="cart__option__grid">
+                            <p class="textSmall cloth-size-title">size</p>
+                            <p class="textSmall cloth-color-title">color</p>
+
+
+                            <p class="textSmall grid-index">#1</p>
+                            <select class="pair-attribute" name="size" id="cloth1Size">
+                                <option value="s">s</option>
+                                <option value="m">m</option>
+                                <option value="l">l</option>
+                            </select>
+                            <select class="pair-attribute" name="color" id="cloth1Color">
+                                <option value="black">black</option>
+                                <option value="white">white</option>
+                                <option value="olive">olive</option>
+                            </select>
+
+                            <p class="textSmall grid-index">#2</p>
+                            <select class="pair-attribute" name="size" id="cloth2Size">
+                                <option value="s">s</option>
+                                <option value="m">m</option>
+                                <option value="l">l</option>
+                            </select>
+                            <select class="pair-attribute" name="color" id="cloth2Color">
+                                <option value="black">black</option>
+                                <option value="white">white</option>
+                                <option value="olive">olive</option>
+                            </select>
+
+                            <p class="textSmall grid-index">#3</p>
+                            <select class="pair-attribute" name="size" id="cloth3Size">
+                                <option value="s">s</option>
+                                <option value="m">m</option>
+                                <option value="l">l</option>
+                            </select>
+                            <select class="pair-attribute" name="color" id="cloth3Color">
+                                <option value="black">black</option>
+                                <option value="white">white</option>
+                                <option value="olive">olive</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart__info">
+                <h5>free 2 day shipping</h5>
+                <p>total : <span class="text-hightlight">dkk 360.00</span></p>
+            </div>
+            <button class="cart__cta cart_cta">+ add to cart</button>
+            <p class="copyright">&copy; powered by Pumper</p>
+        </div>
+    </section>
+
+    <!-- 
+        BEM - Block ELement Modifier
+    -->
+</body>
+
+</html>
