@@ -23,6 +23,13 @@ pairSelection.forEach((element) => {
       "cart__option--selected",
       ".cart__option--selected>.cart__option__grid-container"
     );
+
+    // changing cart total price
+    const cartPrice = parent.querySelector(".cart__option__price").textContent;
+
+    const cartTotal = (document.querySelector(
+      ".cart__total-highlight"
+    ).textContent = cartPrice);
   });
 });
 
