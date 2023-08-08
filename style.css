@@ -75,8 +75,6 @@ p {
     border: 2px solid var(--green);
 
     background-color: var(--light-green);
-
-    transition: 0.1s ease-out;
 }
 
 .cart__option--selected>.cart__option__grid-container {
